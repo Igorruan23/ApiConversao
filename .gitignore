@@ -1,0 +1,57 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / IDEs
+.vs/
+.vscode/
+.idea/
+
+# NuGet packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# dotnet CLI
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Logs
+*.log
+
+# Secrets and config
+secrets.json
+appsettings.*.json
+!appsettings.Development.json
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+
+# ASP.NET scaffolding
+ScaffoldingReadMe.txt
+
+# DotCover reports
+*.dotCover
+
+# Misc
+*.rej
+*.orig
