@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "APIConversao.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIConversao.Models.LoginRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIConversao.Controllers.ConversorController",
+    "Method": "ConvertLenght",
+    "RelativePath": "Length",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "APIConversao.Models.ConversorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
